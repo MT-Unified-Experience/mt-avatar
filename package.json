@@ -3,8 +3,8 @@
   "private": true,
   "version": "2.0.1",
   "description": "A simple web component",
-  "main": "my-element.js",
-  "module": "my-element.js",
+  "main": "avatar-component.js",
+  "module": "avatar-component.js",
   "type": "module",
   "scripts": {
     "build": "echo \"This is not a TypeScript project, so no need to build.\"",
@@ -38,6 +38,9 @@
   ],
   "author": "Google LLC",
   "license": "BSD-3-Clause",
+  "files": [
+    "*.js"
+  ],
   "dependencies": {
     "lit": "^3.0.0"
   },
